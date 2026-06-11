@@ -1,0 +1,9 @@
+{
+  "name": "rocks-music-runtime",
+  "version": "1.0.0",
+  "description": "Node runtime support for PyTgCalls and ValerieMusic Bot",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node -v"
+  }
+}

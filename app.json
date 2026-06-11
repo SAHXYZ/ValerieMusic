@@ -1,0 +1,24 @@
+{
+  "name": "Valerie Music",
+  "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+  "logo": "https://telegra.ph/Valerie-02-24",
+  "keywords": ["python3","telegram","bot","Valerie","MusicBot","telegram-bot","pyrogram"],
+  "env": {
+    "API_ID": { "description": "Get this from https://my.telegram.org", "required": true },
+    "API_HASH": { "description": "Get this from https://my.telegram.org", "required": true },
+    "BOT_TOKEN": { "description": "Bot token from @BotFather", "required": true },
+    "MONGO_DB_URI": { "description": "MongoDB URI from https://cloud.mongodb.com", "required": true },
+    "OWNER_ID": { "description": "Your Telegram user ID", "required": true },
+    "STRING_SESSION": { "description": "Pyrogram v2 string session", "required": true },
+    "LOG_GROUP_ID": { "description": "Log group ID (not channel id)", "required": true },
+
+    "API_URL": { "description": "Audio API base (like Randibot uses)", "required": false },
+    "API_KEY": { "description": "Audio API key (optional)", "required": false },
+    "COOKIES_URL": { "description": "yt cookies file url (optional)", "required": false }
+  },
+  "buildpacks": [
+    { "url": "heroku-community/apt" },
+    { "url": "heroku/python" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git" }
+  ]
+}

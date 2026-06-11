@@ -1,0 +1,14 @@
+# Secrets
+.env
+sample.env
+
+# Cache & runtime
+cache/
+downloads/
+__pycache__/
+*.pyc
+*.log
+
+# Session files
+*.session
+*.session-journal

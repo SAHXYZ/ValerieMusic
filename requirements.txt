@@ -1,0 +1,42 @@
+# Core Tele libs
+git+https://github.com/KurimuzonAkuma/pyrogram.git@2ae00a2710dd3e347798473f3dd784e9639edb1a
+py-tgcalls==0.9.7
+pytgcrypto
+pyrofork
+kurigram
+
+# Async/HTTP
+aiofiles
+aiohttp
+httpx==0.24.1
+requests
+python-dotenv
+pyyaml
+heroku3
+aiomysql
+motor
+dnspython
+
+# Media/Processing
+ffmpeg-python
+hachoir
+pillow==9.5.0
+opencv-python
+numpy
+psutil
+
+# Downloaders/Search
+yt-dlp>=2024.10.07
+youtube-search
+youtube-search-python
+beautifulsoup4
+unidecode
+
+# Extras
+spotipy
+speedtest-cli
+
+# System
+uvloop; sys_platform != "win32"
+gitpython
+pytz
